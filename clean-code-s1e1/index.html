@@ -27,7 +27,7 @@
         <h3>Todo</h3>
         <ul id="incomplete-tasks" class="content-container">
           <li class="container-item">
-            <input type="checkbox">
+            <input type="checkbox" class="checkmark">
             <label class="task task-name">Pay Bills</label>
             <input type="text" class="task task-item task-disable">
             <button class="edit">Edit</button>
@@ -36,7 +36,7 @@
             </button>
           </li>
           <li class="container-item edit-mode">
-            <input type="checkbox">
+            <input type="checkbox" class="checkmark">
             <label class="task task-name">Go Shopping</label>
             <input type="text" value="Go Shopping" class="task task-item task-disable">
             <button class="edit">Save</button>
@@ -48,10 +48,10 @@
       </section>
       <section class="completed">
       <h3>Completed</h3>
-        <ul id="completed-tasks" class="content-container">
+        <ul id="completed-tasks" class="content-container container-item-complete">
           <li class="container-item">
-            <input type="checkbox" checked>
-            <label class="task task-name">See the Doctor</label>
+            <input type="checkbox" checked class="checkmark">
+            <label class="task task-name task-completed">See the Doctor</label>
             <input type="text" class="task task-item task-disable">
             <button class="edit">Edit</button>
             <button class="delete">

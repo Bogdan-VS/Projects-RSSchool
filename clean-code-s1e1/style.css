@@ -69,13 +69,14 @@ h3 {
   margin: 0;
   text-transform: uppercase;
 }
-.task {
+.task-item {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
   height: 21px;
   box-sizing: border-box;
   border: 1px solid #ddd;
+  padding: 0 9px;
   background: #fff;
   border-radius: 6px;
   font-family: 'Lato', sans-serif;
@@ -90,17 +91,18 @@ h3 {
   display: block;
   margin: 0 0 20px;
 }
-.task-row-wrapper .task {
+/* .task-row-wrapper .task {
   width: 100%;
-}
+} */
 
 .new-task {
+  display: inline-block;
   border: none;
   height: 19px;
 }
 
 /* Task list */
-li {
+.container-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -140,15 +142,15 @@ ul#completed-tasks label {
 }
 
 /* Edit Task */
-ul li input[type='text'] {
+.task-disable {
   display: none;
 }
 
-ul li.editMode input[type='text'] {
+.edit-mode .task-item {
   display: inline-block;
   width: 224px;
 }
 
-ul li.editMode label {
+.edit-mode .task-name {
   display: none;
 }

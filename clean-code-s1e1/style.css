@@ -136,7 +136,7 @@ li > * {
 }
 
 /* Completed */
-.container-item-complete .task-completed {
+.container-item-complete .task-name {
   text-decoration: line-through;
   color: #888;
 }
